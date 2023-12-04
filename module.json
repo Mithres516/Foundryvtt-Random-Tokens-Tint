@@ -1,7 +1,12 @@
 {
+	"download": "https://github.com/Mithres516/Foundryvtt-Random-Tokens-Tint/releases/latest/download/module.zip",
+	"manifest": "https://github.com/Mithres516/Foundryvtt-Random-Tokens-Tint/releases/latest/download/module.json",
+	"url": "https://github.com/Mithres516/Foundryvtt-Random-Tokens-Tint",
     "authors": [
         {
-            "name": "Mithres"
+            "discord": "mithres",
+            "name": "Mithres",
+            "url": "https://github.com/Mithres516/Foundryvtt-Random-Tokens-Tint"
         }
     ],
     "compatibility": {
