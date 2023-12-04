@@ -30,9 +30,7 @@
             "label": "Random Tokens Tint: Macros",
             "name": "random-tokens-tint-macros",
             "path": "./packs/random-tokens-tint-macros.db",
-            "system": "cyberpunk-red-core",
-            "type": "Macro",
-            "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+            "type": "Macro"
         }
     ],
     "title": "Random Tokens Tint",

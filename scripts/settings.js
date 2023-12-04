@@ -101,7 +101,7 @@ const renderTokenConfigHandler = async (tokenConfig, html) => {
     const moduleId = MODULE_NAME;
     const tab = {
         name: moduleId,
-        label: "Random Colorize Token",
+        label: "Random Tokens Tint",
         icon: "fas fa-palette",
     };
     injectConfig.inject(tokenConfig, html, { moduleId, tab }, tokenConfig.object);

@@ -73,7 +73,7 @@ export class ColorRandomizerSettings extends BaseSettings {
 	static get defaultOptions() {
 		return mergeObject(super.defaultOptions, {
 			id: "randomcolorizetokens-colors",
-			title: `Random Colorize Tokens Colors}`,
+			title: `Random Tokens Tint - Colors`,
 			template: "./modules/randomcolorizetokens/templates/colorSettings.hbs",
 			height: "auto",
 		});
