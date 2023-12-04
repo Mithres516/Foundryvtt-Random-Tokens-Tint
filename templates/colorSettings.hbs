@@ -1,0 +1,21 @@
+<form class="random-clorize-tokens-form" autocomplete="off" onsubmit="event.preventDefault()">
+	<div class="form-group">
+		<div class="colors-rows">
+			{{#each colors as |color id|}}
+				<label>Color #{{color.indexLabel}}</label>
+				<div class="form-field">{{colorPicker name="colors" value=color.color}} <div><button type="button" name="deleterow-{{id}}"><i class="fas fa-trash"></i></button></div></div>
+			{{/each}}
+			<div><button type="button" name="add"><i class="far fa-plus"></i> Add a new color</button></div>
+		</div>
+		<footer class="sheet-footer flexrow">
+			<button type="submit" name="submit">
+				<i class="far fa-save"></i>
+				{{localize "SETTINGS.Save"}}
+			</button>
+			<button type="button" name="reset" data-action="reset">
+				<i class="fas fa-undo"></i>
+				{{localize "SETTINGS.Reset"}}
+			</button>
+		</footer>
+	</div>
+</form>

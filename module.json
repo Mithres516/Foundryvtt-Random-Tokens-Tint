@@ -1,0 +1,40 @@
+{
+    "authors": [
+        {
+            "name": "Mithres"
+        }
+    ],
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "description": "A simple option to add a random Tint to tokens when placed.",
+    "id": "randomcolorizetokens",
+    "esmodules": [
+        "scripts/settings.js"
+    ],
+    "styles": [
+        "css/randomColorizeTokens.css"
+    ],
+    "packFolders": [
+        {
+            "name": "Random Tokens Tint",
+            "sorting": "m",
+            "packs": [
+                "random-tokens-tint-macros"
+            ]
+        }
+    ],
+    "packs": [
+        {
+            "label": "Random Tokens Tint: Macros",
+            "name": "random-tokens-tint-macros",
+            "path": "./packs/random-tokens-tint-macros.db",
+            "system": "cyberpunk-red-core",
+            "type": "Macro",
+            "banner": "systems/cyberpunk-red-core/images/compendium-banner.webp"
+        }
+    ],
+    "title": "Random Tokens Tint",
+    "version": "1.0.0"
+}

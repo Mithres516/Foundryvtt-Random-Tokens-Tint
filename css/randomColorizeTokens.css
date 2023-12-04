@@ -1,0 +1,12 @@
+form.random-clorize-tokens-form .form-group {
+	height: auto;
+	display: block;
+}
+
+form.random-clorize-tokens-form .form-group .form-field {
+	display: flex;
+}
+
+form.random-clorize-tokens-form .form-group .sheet-footer {
+	margin-top: 20px;
+}
