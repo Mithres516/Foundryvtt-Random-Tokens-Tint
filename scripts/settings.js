@@ -79,7 +79,7 @@ Hooks.on("init", () => {
 Hooks.on("preCreateToken", function (document, data, options) {
     const active = sGet("active");
     if (!active) { return; }
-    if (!document.flags?.randomcolorizetokens.randomizeColor) { return; }
+    if (!document.flags?.randomcolorizetokens?.randomizeColor) { return; }
 
     const loop = sGet("loop");
 
@@ -120,7 +120,7 @@ const randomColorToSelection = (loop = true, onlyColorable = false) => {
     const tokens = canvas.tokens.controlled;
 
     for (let token of tokens) {
-        if (onlyColorable && !token.document.flags?.randomcolorizetokens.randomizeColor) { continue; }
+        if (onlyColorable && !token.document.flags?.randomcolorizetokens?.randomizeColor) { continue; }
         let colorGroup = loop ? sGet("usableColors") : deepClone(sGet("colors"));
         if (loop && colorGroup.length == 0) {
             colorGroup = deepClone(sGet("colors"));
